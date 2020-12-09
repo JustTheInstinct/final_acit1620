@@ -6,11 +6,21 @@
 
 body {
     width: 640px;
+    height: auto;
 }
 
 h2 {
     font-size: 20px;
     margin: 10px;
+}
+
+main {
+        height: auto;
+}
+
+#preview {
+    opacity: 0;
+    background-image: none;
 }
 
 @media screen and (min-width: 640px) {
@@ -29,3 +39,4 @@ h2 {
     p {
         font-size: 18px;
     }
+}
