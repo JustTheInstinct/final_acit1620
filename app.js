@@ -1,4 +1,9 @@
 document.querySelector('#submit').addEventListener('click', submit);
+document.querySelector('#red').addEventListener('mouseover', function(){check('red')})
+document.querySelector('#blue').addEventListener('mouseover', function(){check('blue')})
+document.querySelector('#green').addEventListener('mouseover', function(){check('green')})
+document.querySelector('#black').addEventListener('mouseover', function(){check('black')})
+document.querySelector('#white').addEventListener('mouseover', function(){check('white')})
 
 function submit () {
     document.getElementById('main').style.backgroundColor = '#ffffff'
