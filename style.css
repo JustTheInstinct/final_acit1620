@@ -1,0 +1,31 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    width: 640px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        width: 100%;
+    }
+
+    #thumb-bar img {
+        width: 100px;
+    }
+
+    #preview {
+        width: 400px;
+    }
+
+    p {
+        font-size: 18px;
+    }
