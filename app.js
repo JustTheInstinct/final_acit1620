@@ -43,6 +43,8 @@ function submit (user) {
 };
 
 function check(colour) {
+    document.getElementById('submit').style.opacity = 1
+    document.getElementById('apply').style.opacity = 1
     let selection = ['red', 'blue', 'green', 'black', 'white'];
     for (select = 0; select < 6; select++){
         if (colour == selection[select]) {
